@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Varela+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+:root {
+    --color-primary : #E76F51;
+    --color-primary-2: #EA9480;
+    --color-primary-3: #EBA695;
+    --color-secondary-1: #1597E5;
+    --color-secondary-2: #09009B;
+    /* --color-other-1: #FFA400; */
+    --color-other-1: #77ACF1;
+    --white-color: #fff;
+    --back-color: #000;
+    --black-color: #212121;
+    --black-color-1: #334756;
+    --background-1: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --background-2: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    --background-3: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    --background-4: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+}
+
+
+section {
+    margin-bottom: 20px;
+}

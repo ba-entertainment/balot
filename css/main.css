@@ -1,0 +1,36 @@
+/* .container {
+    margin: auto;
+    display: flex;
+    flex-direction:  row;
+    width: 1200px;
+    border-style: dashed;
+}
+
+.item {
+    border-style: dashed;
+    width: 100px;
+}
+
+@media (max-width: 1023px) {
+    .container {
+        max-width: 1023px;
+    }
+
+    .item {
+        max-width: 300px;
+    }
+
+} */
+
+
+
+/* @media (max-width: 599px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+ 
+} */
+
+

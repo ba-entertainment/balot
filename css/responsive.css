@@ -1,0 +1,45 @@
+@import url(./base.css);
+
+
+
+@media (max-width: 799px) {
+    .information-cont {
+        display: none;
+    }
+
+    .mb-webtitle {
+        position: relative;
+    }
+
+    .mb-webtitle > h1 {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+
+    .md-webtitle::before {
+        position: absolute;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--color-primary);
+    }
+
+    .button {
+        font-size: 24px !important;
+        width: 160px !important;
+        height: 48px !important;
+    }
+
+    .modal-fade {
+        padding: 0px 10px;
+    }
+   
+}
+
+@media (min-width: 800px) {
+    .information-mb {
+        display: none !important;
+    }
+    
+}
